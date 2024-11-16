@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Search Engine | Izza S</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>MyRecipe</h1>
+            <form>
+                <input 
+                    type="text"
+                    placeholder="Search for recipes..."
+                    class="searchBox" 
+                />
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>Search your favourite recipes...</h2>
+            </div>
+            <div class="recipe-details">
+                <button class="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+        <section class="front-container">
+            <div class="bg-container">
+                <img src="background.jpg" alt="Background-picture" class="bg-image">
+            </div>
+            <div class="user-guide">
+                <h1>About us</h1>
+                <p>
+                    Welcome to MyRecipe, your go-to recipe engine!<br/><br/>
+
+                    Discover over 300+ recipes with ease—search by ingredients or dish name to find your favorites in seconds. Let's make cooking a fun and seamless experience!<br/><br/>
+
+                    We hope you like it! If you do, we would love to hear from you. Send your feedback through email <a href="mailto:izza.career@gmail.com">izza.career@gmail.com</a>. Thank you in advance!
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Designed by Izza Sinatrya</p>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
